@@ -1,0 +1,101 @@
+body{
+    background-color: aqua;
+}
+.primeira{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0,0,0.5);
+
+}
+.segunda
+{
+    background-color: blueviolet;
+    display: block;
+    text-decoration:solid;
+    text-align: center;
+}
+.terceira{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+}
+.quarta{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+}
+.quinta{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.sexta{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    
+}
+.rodape{
+    text-decoration:wavy;
+    text-align: center;
+    display: block;
+}   
+.grafico{
+    background-color: blueviolet;
+    display: block;
+    text-align:center;
+}
+.rodape{
+    background-color: blueviolet;
+    display: block;
+    text-align: center;
+    text-rendering: geometricPrecision;
+}
+h1,h2{
+    color: blue; font-size: 40px;
+}
+html{
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 1.2;
+}
+body{
+    box-sizing: border-box;
+    display:block;
+    margin: 0;
+}
+a{
+    color:red;
+}
+a:hover{
+    color:black
+}
+table{
+    text-align: center;
+}
+.videoponte{
+    background-color: blueviolet;
+    box-sizing: border-box;
+    text-align:center
+}
+.GraficoSVG{
+    background-color: blueviolet;
+    box-sizing: border-box;
+    text-align: center;
+}
+.GraficoCANVAS{
+    background-color: blueviolet;
+    box-sizing: border-box;
+    text-align: center;
+}
+.Escolha{
+    background-color: blueviolet;
+    box-sizing: border-box;
+    text-align: center;
+}
