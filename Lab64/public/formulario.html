@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <main>
+    <header><h1>Upload de arquivos</h1></header>
+    <h2>Coloque o arquivo aqui</h2>
+    <form action="/submit" method="post">
+        <label for="nome">Nome</label>
+        <input type="text" id="nome" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Comente sua Experiencia:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="file" name="file"><br><br>
+        <input type="submit" value="Finalizar">
+    </form>
+    
+    <a href="/">Voltar para a Página Inicial</a>
+   </main>
+</body>
+</html>
